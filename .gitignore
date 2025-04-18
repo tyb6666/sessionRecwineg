@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.zip
+*.pt
+*.log
+temp/
+out/
+wandb/
+trained_models/
+models/sentence-t5-xl/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.env
+.venv
+
+# VSCode
+.vscode/
+
+# Ignore processed or generated datasets
+data/P5/
+data/*.zip
+dataset/
